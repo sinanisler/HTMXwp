@@ -1,4 +1,4 @@
-# HTMXWPpress Theme
+# HTMXWPress Theme
 
 WordPress + HTMX Theme Boilerplate
 
