@@ -1,8 +1,8 @@
 # WordPress + HTMX Theme Boilerplate
 
-Idea is to create a bare minimum simple html theme with native HTMX WordPress theme with all the native WP supports.
+idea is to create a bare minimum simple wp php theme with native htmx triggers
 
-posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy.
+posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy, menus
 
 
 ## Warning 
