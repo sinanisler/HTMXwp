@@ -5,7 +5,7 @@ O_O
 
 # WordPress + HTMX Theme Boilerplate
 
-simple and bare minimum simple wordpress theme with htmx
+simple wordpress theme with htmx
 
 posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy, menus
 
