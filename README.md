@@ -5,8 +5,6 @@ Idea is to create a bare minimum simple html theme with native HTMX WordPress th
 posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy.
 
 
-
-
 ## Warning 
 it is not fully implemented. yet....
 
@@ -16,4 +14,10 @@ it is not fully implemented. yet....
 - seo friendly
 - permalink support
 - block editor & site editor support 😎
+- simple page transitions ..etc
 
+
+
+when it is ready I will create a demo site for this
+with proper caching I am 100% sure this theme will work crazy fast
+cant wait to try this on a regular hosting  😎
