@@ -5,10 +5,12 @@ O_O
 
 # WordPress + HTMX Theme Boilerplate
 
-idea is to create a bare minimum simple wp php theme with native htmx triggers
+simple and bare minimum simple wordpress theme with htmx
 
 posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy, menus
 
+# Videos
+WIP
 
 ## Warning 
 it is not fully implemented. yet....
@@ -19,7 +21,7 @@ it is not fully implemented. yet....
 - seo friendly
 - permalink support
 - block editor & site editor support 😎
-- simple page transitions ..etc
+- simple page transitions examples ..etc
 
 
 
