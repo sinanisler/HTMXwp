@@ -1,3 +1,8 @@
+# HTMXwp
+
+O_O
+
+
 # WordPress + HTMX Theme Boilerplate
 
 idea is to create a bare minimum simple wp php theme with native htmx triggers
