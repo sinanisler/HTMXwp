@@ -9,11 +9,12 @@ simple wordpress theme with htmx
 
 posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy, menus
 
-# Videos
-WIP
+
 
 ## Warning 
 it is not fully implemented. yet....
+
+
 
 ## TODO
 -  template hierarchy https://developer.wordpress.org/themes/basics/template-hierarchy/
