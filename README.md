@@ -9,6 +9,7 @@ simple wordpress theme with htmx
 
 posts, pages, post types, archives, categories, tags, taxonomies, permalinks, hierarchy, menus
 
+the core idea is to implement hx-get natively on the theme and demonstrate the htmx with wp.
 
 
 ## Warning 
