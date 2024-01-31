@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html <?php language_attributes(); ?>>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,4 @@
 
 
 <?php wp_nav_menu( $args = array('menu'=>'header-top') ); ?>
-
-
-<br><br><br><br><!-- brrrrrrr lol -->
 
