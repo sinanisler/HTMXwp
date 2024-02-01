@@ -2,6 +2,7 @@
 
 // Menu Support
 add_theme_support( 'menus' );
+add_theme_support( 'title-tag' );
 
 
 // Custom Menu Attributes Support for HTMX.org
