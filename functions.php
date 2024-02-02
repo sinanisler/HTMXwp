@@ -1,8 +1,47 @@
 <?php 
 
+
+
+
+
+
 // Menu Support
 add_theme_support( 'menus' );
 add_theme_support( 'title-tag' );
+
+
+
+
+
+
+function custom_enqueue_scripts() {
+    // Enqueue htmx script
+    wp_enqueue_script(
+        'htmx', // Handle for the script, should be unique.
+        'https://unpkg.com/htmx.org@1.9.10', // URL to the script.
+        array(), // Dependencies, an array of registered script handles this script depends on.
+        '1.9.10', // Version number for the script, helps with cache busting.
+        true // Whether to enqueue the script in the footer. `true` for footer, `false` for header.
+    );
+
+    // Enqueue htmx head-support extension
+    wp_enqueue_script(
+        'htmx-head-support',
+        'https://unpkg.com/htmx.org/dist/ext/head-support.js',
+        array('htmx'), // Making it dependent on htmx script.
+        null, // No version needed, it will be fetched as the latest version.
+        true
+    );
+
+}
+add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
+
+
+
+
+
+
+
 
 
 // Custom Menu Attributes Support for HTMX.org
