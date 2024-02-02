@@ -13,10 +13,11 @@
 <script src="https://unpkg.com/htmx.org@1.9.10" 
 	integrity="sha384-D1Kt99CQMDuVetoL1lrYwg5t+9QdHe7NLX/SoJYkXDFfX37iInKRy5xLSi8nO7UC" 
 	crossorigin="anonymous"></script>
+<script src="https://unpkg.com/htmx.org/dist/ext/head-support.js"></script>
 
 <?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>  hx-ext="head-support">
 
 
 <?php wp_nav_menu( $args = array('menu'=>'header-top') ); ?>
