@@ -14,3 +14,10 @@ Text Domain: htmxwp
 Tags: blog, grid-layout, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, wide-blocks, block-patterns, block-styles, custom-colors, custom-logo, full-site-editing, style-variations, template-editing, theme-options, 
 */
 
+.header{
+display:flex
+}
+
+.haeder ul li{
+display:flex
+}
