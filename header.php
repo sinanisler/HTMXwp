@@ -19,6 +19,6 @@
 </head>
 <body <?php body_class(); ?>  hx-ext="head-support">
 
-
+<div class="header">
 <?php wp_nav_menu( $args = array('menu'=>'header-top') ); ?>
-
+</div>
