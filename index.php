@@ -3,16 +3,14 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
-<div class="single-post-loop-item">
+<div class="single-post-loop-item post-<?php the_ID(); ?>">
+    <a  href="<?php the_permalink( ); ?>"
+        hx-get="<?php the_permalink( ); ?>"
+        hx-target=".render-the-content-here-senpai"
+        hx-select=".single-post-content" >
+        <?php the_title(); ?>
 
-
-<a  href="<?php the_permalink( ); ?>"
-    hx-get="<?php the_permalink( ); ?>"
-    hx-target=".render-the-content-here-senpai"
-    hx-select=".single-post-content"
-><?php the_title(); ?></a>
-
-
+    </a>
 </div>
 
 <?php endwhile; else : ?>
