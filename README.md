@@ -30,3 +30,5 @@ it is not fully implemented. yet....
 when it is ready I will create a demo site for this
 with proper caching I am 100% sure this theme will work crazy fast
 cant wait to try this on a regular hosting  😎
+
+unit test list https://codex.wordpress.org/Theme_Unit_Test
