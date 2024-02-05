@@ -2,36 +2,39 @@
 
 
 
-
-
-
 // Menu Support
 add_theme_support( 'menus' );
 add_theme_support( 'title-tag' );
-
-
-
-
+add_theme_support( 'wp-block-styles' );
+add_theme_support( 'align-wide' );
+add_theme_support( 'custom-line-height' );
+add_theme_support( 'editor-styles' );
+add_theme_support( 'border' );
+add_theme_support( 'appearance-tools' );
+add_theme_support( 'link-color' );
+add_theme_support( 'block-template-parts' );
 
 
 function custom_enqueue_scripts() {
     // Enqueue htmx script
     wp_enqueue_script(
         'htmx', // Handle for the script, should be unique.
-        'https://unpkg.com/htmx.org@1.9.10', // URL to the script.
-        array(), // Dependencies, an array of registered script handles this script depends on.
-        '1.9.10', // Version number for the script, helps with cache busting.
-        true // Whether to enqueue the script in the footer. `true` for footer, `false` for header.
+        'https://unpkg.com/htmx.org@1.9.10'
     );
 
     // Enqueue htmx head-support extension
     wp_enqueue_script(
         'htmx-head-support',
-        'https://unpkg.com/htmx.org/dist/ext/head-support.js',
-        array('htmx'), // Making it dependent on htmx script.
-        null, // No version needed, it will be fetched as the latest version.
-        true
+        'https://unpkg.com/htmx.org/dist/ext/head-support.js'
     );
+
+    // Register and enqueue a style.css file
+    wp_enqueue_style(
+        'custom-style',
+        get_stylesheet_directory_uri() . '/style.css'
+    );
+
+
 
 }
 add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
