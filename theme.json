@@ -3,8 +3,8 @@
 	"settings": {
 		"appearanceTools": true,
 		"layout": {
-			"contentSize": "620px",
-			"wideSize": "1000px"
+			"contentSize": "1000px",
+			"wideSize": "1200px"
 		},
 		"spacing": {
 			"units": [ "%", "px", "em", "rem", "vh", "vw" ]
