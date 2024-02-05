@@ -22,7 +22,7 @@ it is not fully implemented. yet....
 - it is possible to make all native wordpress hierarchy work on this.
 - seo friendly
 - permalink support
-- block editor & site editor support 😎
+- block editor support
 - simple page transitions examples ..etc
 
 
