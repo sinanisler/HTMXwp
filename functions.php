@@ -35,6 +35,10 @@ function custom_enqueue_scripts() {
     );
 
 
+    // Add more .css or .js here if needed
+
+
+
 
 }
 add_action('wp_enqueue_scripts', 'custom_enqueue_scripts');
