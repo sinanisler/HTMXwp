@@ -3,12 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?php
-	if ( is_front_page() || is_home() ) {
-		bloginfo( 'name' );
-	} else {
-		echo wp_title( '' );    }
-	?></title>
+<title><?php if ( is_front_page() || is_home() ) { bloginfo( 'name' ); } else { echo wp_title( '' ); }	?></title>
 
 
 <?php wp_head(); ?>
